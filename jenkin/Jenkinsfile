@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Hello Starting Job'
-                 sh ''' merge_conlict.sh 
+                 sh ''' ./merge_conflict.sh branch_list 
                 '''
                 
                 
