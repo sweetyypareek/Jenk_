@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Hello Starting Job'
-                sh '''  pwd
+                 sh ''' ./merge_conlict.sh 
                 '''
                 
                 
